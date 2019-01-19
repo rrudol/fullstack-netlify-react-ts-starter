@@ -1,7 +1,7 @@
 {
   "compilerOptions": {
     "lib": ["es2018", "dom"],
-    "module": "commonjs",
+    "module": "system",
     "target": "es2018",
     "outDir": "./build",
     "sourceRoot": "./src/",
