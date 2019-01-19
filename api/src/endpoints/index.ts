@@ -1,4 +1,6 @@
 import Application from "../modules/Application";
 import serverless from "serverless-http";
 
-export default serverless(Application);
+module.exports.handler = async (event, context) => {
+  return await serverless(Application)(event, context);
+};
